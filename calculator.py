@@ -20,7 +20,7 @@ def Calculator(num1, num2, operation):
         case "%":
             return num1 % num2
         case _:
-            return "-1"
+            return -1
 
 
 def main():
@@ -38,7 +38,7 @@ def main():
     else:
         print("\nOperations: +, -, *, /, %")
 
-        # Gets the operation from the user
+        # Gets the operation from the user  
         operation_user = input("Enter an operation: ")
 
         # Storing return value inside the result variable
